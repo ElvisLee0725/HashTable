@@ -49,7 +49,6 @@ public class Soluton {
 
         List<String> res = new ArrayList();
         for(Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + ", " + entry.getValue());
 
             if(entry.getValue() >= threshold) {
                 res.add(entry.getKey());
